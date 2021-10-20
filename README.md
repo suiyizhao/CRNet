@@ -2,11 +2,11 @@
 ## Model
 train:
 
-`python train.py --data_source /path/to/dataset --trial trial --resizeX 128 --resizeY 224 --cropX 128 --cropY 128 --lambda_perc 0.1 --PGBFP`
+`python train.py --data_source /path/to/dataset --trial trial --lambda_perc 0.1 --PGBFP`
 
 test:
 
-`python test.py --data_source /path/to/dataset --trial trial --resizeX 128 --resizeY 224 --model_name your_model_name --PGBFP`
+`python test.py --data_source /path/to/dataset --trial trial --model_name your_model_name --PGBFP`
 
 ## CSE Metric
 Example:
