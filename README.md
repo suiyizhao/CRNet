@@ -8,7 +8,7 @@ test:
 
 `python test.py --data_source /path/to/dataset --trial trial --model_name your_model_name --PGBFP`
 
-## CSE Metric
+## Color-Sensitive Error (CSE) Metric
 Example:
 
 ```
