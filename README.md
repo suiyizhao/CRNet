@@ -33,7 +33,7 @@ ssim = structural_similarity(img1, img2, multichannel=True, gaussian_weights=Tru
 ```
 
 ## New Metric: Color-Sensitive Error (CSE)
-Usage:
+Usage (CSE.py):
 
 ```
 
